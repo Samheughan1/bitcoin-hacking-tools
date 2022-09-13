@@ -14,11 +14,11 @@ typedef union hash160_u {
 
 typedef struct keydata_u {
   int state;
-  unsigned char[PWF_BUF_SZ] password;
+  unsigned char[PWF_BUF_SZ] password;tholas
   unsigned char[SHA256_DIGEST_LENGTH] priv;
   unsigned char[RIPEMD160_DIGEST_LENGTH] uaddr;
   unsigned char[RIPEMD160_DIGEST_LENGTH] caddr;
 } keydata_t;
 
 /*  vim: set ts=2 sw=2 et ai si: */
-#endif /* __BRAINFLAYER_CRACK_H_ */
+#endif /* __BRAINFLAYER_CRACK_H_ */111
